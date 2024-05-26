@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan("com.shf.spring.sms.mapper")
 public class SmsApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(SmsApplication.class, args);
     }
-
 }
